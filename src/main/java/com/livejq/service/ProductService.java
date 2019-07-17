@@ -36,4 +36,6 @@ public interface ProductService {
 
     //下架
 //    ProductInfo offSale(String productId);
+
+	ProductInfo offSale(String productId);
 }
