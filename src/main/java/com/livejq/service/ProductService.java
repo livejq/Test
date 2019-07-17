@@ -36,4 +36,5 @@ public interface ProductService {
 
     //下架
 //    ProductInfo offSale(String productId);
+	void decreaseStock(List<CartDTO> cartDTOList);
 }
